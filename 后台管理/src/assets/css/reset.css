@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.el-pagination {
+  margin-top: 20px;
+}
+.el-table__row,
+.has-gutter,thead,th{
+  background-color: #323436 !important;
+  color: rgb(255, 238, 0);
+ 
+}
+td,th{
+  border: #82202b solid 1px !important;
+  text-align: center !important;
+}
+.el-table--border, .el-table--group {
+  border: none;
+
+}
+
+.el-table__body tr:hover>td{
+  background-color: #15559a !important;
+}
+
+/* .el-table__body tr.current-row>td{
+  background-color: #c6cfdf!important;
+} */
